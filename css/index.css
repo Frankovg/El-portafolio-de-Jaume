@@ -1,0 +1,50 @@
+@import "./button.css";
+@import "./header.css";
+@import "./icon.css";
+@import "./hero.css";
+@import "./icon.css";
+@import "./wrapper.css";
+@import "./menu.css";
+@import "./comment.css";
+@import "./card.css";
+@import "./project.css";
+@import "./social.css";
+@import "./footer.css";
+@import "./form.css";
+@import "./title.css";
+
+
+
+:root {
+    --fontBase: 'Poppins', sans-serif; /*Fuentes tomadas de Google Fonts*/
+    --fontBase2: 'Oxygen', sans-serif;
+    
+    /*Información tomada del Design System del Figma*/
+    --headLine1: bold 95px/153.71px var(--fontBase);
+    --headLine2: bold 59px/95.46px  var(--fontBase);
+    --headLine3: bold 48px/77.66px  var(--fontBase);
+    --headLine4: bold 34px/55.01px  var(--fontBase);
+    --headLine5: bold 24px/38.83px  var(--fontBase);
+    --body0: normal 34px/55px  var(--fontBase2);
+    --body1: normal 16px/26px  var(--fontBase);
+    --body2: normal 14px/23px  var(--fontBase);
+    --body3: normal 24px/39px  var(--fontBase);
+    --body4: bold 34px/55px var(--fontBase2);
+    --body5: bold 16px/26px var(--fontBase2);
+    --button: bold 14px/23px  var(--fontBase);
+    --caption: normal 12px/19px  var(--fontBase);
+    
+    /*Gradient tomado del Figma*/
+    --gradient: radial-gradient(41.48% 11.48% at 2.38% 8.52%, #747DE9 0%, rgba(255, 255, 255, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, linear-gradient(135deg, #72EDF2 0%, #5151E5 100%);
+    --purple: #310A90;
+    --green: #42E2B8;
+    --white: white; 
+
+    }
+
+body {
+    background: var(--gradient);
+    min-block-size: 100vh;
+    font: var(--body1);
+    color: var(--purple);
+}

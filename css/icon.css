@@ -1,0 +1,12 @@
+.button-icon {
+    padding: 10px;
+    border-radius: 4px;
+    border: 2px solid var(--purple);
+    background: var(--white);
+    text-decoration: none; /*para quitar una linea que salía en los íconos*/
+    display: inline-block;  /*para que no se superponga con los elementos que tiene arriba*/
+}
+
+.button-icon img {
+    vertical-align: middle; /*para que no se deforme*/
+}

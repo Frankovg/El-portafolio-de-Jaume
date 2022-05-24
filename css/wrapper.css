@@ -1,0 +1,6 @@
+.wrapper {
+    max-inline-size: 1158px; /*espacio máximo de trabajo*/
+    padding-inline-end: 16px; /*debe mantener esa distancia siempre*/
+    padding-inline-start: 16px;
+    margin: auto; 
+}

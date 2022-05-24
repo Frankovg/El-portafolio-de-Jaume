@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="es" scroll-behavior: smooth> <!--para tener un scroll más suave-->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portfolio</title>
+
+    <link rel="stylesheet" href="./css/index.css">
+    <!--FUENTE POPPINS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <!--FUENTE OXYGEN-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300&family=Poppins:wght@100&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header class="header">
+        <div class="wrapper">
+            <div class="header-content">
+                <img src="./Images/logo.png" alt="logotipo" width="70" height="20"> <!--Me fijo en Figma las medidas, en el peor caso me ayudo con el inspector del Chrome-->
+                <nav class="menu" aria-label="main-navigation">
+                   <ul>
+                       <li>
+                           <a class="is-active" href="#main">Hola</a> <!--Linkea a la section MAIN-->
+                       </li>
+                       <li>
+                           <a href="#projects">Proyectos</a>
+                       </li>
+                       <li>
+                           <a href="#contact">Hablemos</a>
+                       </li>
+                   </ul> 
+                </nav>
+                <button class="button">Curriculum</button>
+                <!-- <button class="button is-secondary">Curriculum</button> -->
+            </div>
+        </header>
+        </div>
+    
+    <div class="wrapper">
+    
+        <section aria-label="main" class="hero" id="main"> <!--aria label genera un landmark en el browser-->
+            <div class="hero-image">
+                <img src="./Images/perfil.png" id="yo" width="338" height="302" alt="Foto">
+            </div>
+            
+            <div class="hero-description">
+                <h1>
+                    <span>¡Hola a todos!</span>
+                    <span>Soy Franco</span>
+                </h1>
+                <p>Soy Diseñador Industrial pero estoy migrando al mundo digital para convertirme en FullStack Developer.</p>
+                
+                <div class="social">
+                    <!--ICONOS todos en una sola línea ya que me toma los espaciados-->
+                    <a class="button-icon" href="tel:608597285"><img src="./Icons/icon-phone.svg" alt="Phone"/></a>
+                
+                    <a class="button-icon" href="mailto:frankovg@gmail.com"><img src="./Icons/icon-important_mail.svg" alt="E-mail"/></a>
+                
+                    <a target="_blank" class="button-icon" href="https://www.instagram.com/frankovg/"><img src="./Icons/icon-instagram.svg" alt="Instagram"/></a>
+                
+                    <a target="_blank" class="button-icon" href="https://twitter.com/FrancoAmoroso5"><img src="./Icons/icon-twitter_squared.svg" alt="Twitter"/></a>
+                </div>
+                
+                <a target="_blank" href="https://drive.google.com/file/d/1nR3gCYk_Hx9DOH8HP_Jkf-YsSFzvsHkH/view?usp=sharing" class="button">Descargar curriculum</a>
+            </div>
+        </section>
+
+        <section class="comment">
+            <div>
+                <p>
+                    A lo largo de mi carrera como FullStack Developer, he tenido el privilegio de trabajar en proyectos 
+                    retadores e increíbles.
+                </p>
+                <p>
+                    Aquí hay algunos que me gustaría compartir.
+                </p>
+                <img src="./Icons/arrow-down.svg" class="buttonArrow" alt="Flecha">
+            </div>
+        </section>
+        
+        <div class="project" id="projects">
+            <div class="project-image">
+                <img src="./Images/apple1.png" alt="">
+            </div>
+            <div class="project-description">
+                <a class="title" target="_blank" href="http://leonidasesteban.com">LeonidasEsteban.com</a>
+                <p class="description1">
+                    Accede a más de 120 proyectos que te ayudarán a mejorar 
+                    tus habilidades como desarrollador Front-End.
+                </p>
+                <a target="_blank" href="http://github.com" class="button is-secondary">Ver código</a>
+                <a target="_blank" href="http://leonidasesteban.com" class="button">Ver proyecto</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://leonidasesteban.com/icons/icon-105x78.png" id="fotoPerfil" alt="imagen de perfil" width="80px" height="80px">
+            <p>
+                "Franco ha sido de gran ayuda para acelerar ciertos esfuerzos de desarrollo. 
+                Lo que nos hubiera llevado 6 meses solo les llevó 1,5 meses".
+            </p>
+            <p>
+                LEONIDAS ESTEBAN / COFUNDADOR Y CEO LEONIDASESTEBAN.COM
+            </p>
+        </div>
+        
+        <div class="project">
+            <div class="project-image">
+                <img src="./Images/📱 iPad.png" alt="">
+            </div>
+            <div class="project-description">
+                <a class="title" target="_blank" href="http://leonidasesteban.com">LeonidasEsteban.com</a>
+                <p class="description1">
+                    Es el sitio oficial de Marvol Entertainment. Explore películas, personajes, cómics, 
+                    programas de televisión, videos y más oficiales de Marvol.
+                </p>
+                <a target="_blank" href="http://github.com" class="button is-secondary">Ver código</a>
+                <a target="_blank" href="http://leonidasesteban.com" class="button">Ver proyecto</a>
+            </div>
+        </div>
+        
+        <div class="card">
+            <img src="https://img.freepik.com/foto-gratis/oficina-hombre-feliz-trabajo_144627-6328.jpg?t=st=1653316351~exp=1653316951~hmac=bc36bf856addbb6fd978c8b1f49bcd4d30f8d54a68c184c882bb928b70afcdf9&w=740" id="fotoPerfil" alt="imagen de perfil" width="80px" height="80px">
+            <p>
+                "Franco ha superado mis expectativas desde el diseño hasta el desarrollo".
+            </p>
+            <p>
+                JASON LOPEZ / COFUNDADOR Y CEO MARVOL
+            </p>
+        </div>
+        
+        <div class="project">
+            <div class="project-image">
+                <img src="./Images/netnet.png" alt="">
+            </div>
+            <div class="project-description">
+                <a class="title" target="_blank" href="http://leonidasesteban.com">LeonidasEsteban.com</a>
+                <p class="description1">
+                    Películas y series ilimitadas y mucho más.
+                    Disfruta donde quieras. Cancela cuando quieras.
+                </p>
+                <a target="_blank" href="http://github.com" class="button is-secondary">Ver código</a>
+                <a target="_blank" href="http://leonidasesteban.com" class="button">Ver proyecto</a>
+            </div>
+        </div>
+        
+        <div class="card">
+            <img src="https://img.freepik.com/foto-gratis/cerrar-camisa-hombre-negocios-asiatico-hermoso-que-fija-pared-gris-aislada-collar-muneca_494174-57.jpg?w=740" id="fotoPerfil" alt="imagen de perfil" width="80px" height="80px">
+            <p>
+                "Por primera vez en la historia de nuestra empresa, aparecimos en todas las 
+                plataformas en las que trabajamos".
+            </p>
+            <p>
+                MARCO CORTEZ / NETNET
+            </p>
+        </div>
+
+        <!--PARA JS SIN BACKEND-->
+        <!-- <form id="form" action="" method="GET" class="form">  -->
+            <!--METHOD es el cómo se envía esa información al servidor-->
+        
+        <!--PARA JS CON FORMSPREE-->   
+        <form id="form" method="POST" class="form" action="https://formspree.io/f/xgeddoab"> 
+            
+            <h2 class="title" id="contact">Hablemos</h2>
+            <p>
+                Si está interesado en trabajar conmigo en su próximo proyecto, 
+                no dude en ponerse en contacto conmigo.
+            </p>
+
+            <label for="name"> <!--FOR y ID con el mismo nombre unidos-->
+                Nombre completo
+                <input required name="name" id="name" type="text" placeholder="Juan"/> <!--NAME="NAME" es importante para el backend-->
+            </label> 
+            
+            <label for="email">
+                Correo electrónico
+                <input required name="email" id="email" type="email" placeholder="hola@ejemplo.com"/> 
+            </label> 
+            
+            <label for="message">
+                Mensaje
+                <textarea required name="message" id="message" placeholder="Mensaje" cols="30" rows="7"></textarea>
+            </label> 
+            
+            <button class="button" type="submit" primary full>ENVIAR MENSAJE</button>
+        
+        </form>
+        <a href="mailto:frankovg@gmail.com" id="trucazo"></a>
+        
+        <footer class="footer">
+            <div class="footer-logo">
+                <img src="./Images/logo.png" alt="logotipo" width="70" height="20">
+            </div>
+    
+            <div class="social">
+                <!--ICONOS todos en una sola línea ya que me toma los espaciados-->
+                <a class="button-icon" href="tel:608597285"><img src="./Icons/icon-phone.svg" alt="Phone"/></a>
+            
+                <a class="button-icon" href="mailto:frankovg@gmail.com"><img src="./Icons/icon-important_mail.svg" alt="E-mail"/></a>
+            
+                <a target="_blank" class="button-icon" href="https://www.instagram.com/frankovg/"><img src="./Icons/icon-instagram.svg" alt="Instagram"/></a>
+            
+                <a target="_blank" class="button-icon" href="https://twitter.com/FrancoAmoroso5"><img src="./Icons/icon-twitter_squared.svg" alt="Twitter"/></a>
+            </div>
+            <div class="footer-copyright">
+                <p>Hecho con el ❤ de Franco. </p>
+                <p>Copyright 2021 - Todos los derechos reservados.</p>
+            </div>
+        </footer>
+    </div>
+
+    <!--JAVASCRIPT: E-mail sin backend-->
+
+    <!-- <script>
+        const $form = document.querySelector('#form')
+        const $buttonMailTo = document.querySelector('#trucazo')
+
+        $form.addEventListener('submit', handleSubmit)
+
+        function handleSubmit(event) {
+            event.preventDefault() //Evita que la web vaya a MAIN al ENVIAR MENSAJE
+            const form = new FormData(this) //form != $form
+            // console.log('Nombre: ' + form.get('name'))
+            $buttonMailTo.setAttribute('href', `mailto:frankovg@gmail.com?subject=Nombre ${form.get('name')} correo ${form.get('email')} &body= ${form.get('message')}`)
+            $buttonMailTo.click()
+        }
+    </script> -->
+
+    <!--JAVASCRIPT: E-mail con Formpree-->
+
+    <script>
+        const $form = document.querySelector('#form')
+
+        $form.addEventListener('submit', handleSubmit)
+
+        async function handleSubmit(event) {
+            event.preventDefault()
+            const form = new FormData(this)
+            const response = await fetch(this.action, {
+                method: this.method,
+                body: form,
+                headers: {
+                    'Accept': 'application/json'
+                }
+            })
+            if (response.ok) {
+                this.reset()
+                alert('Gracias por contactarme, te escribiré pronto =)')
+            }
+        }
+        
+    </script>
+
+
+</body>
+</html>

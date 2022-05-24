@@ -1,0 +1,64 @@
+.hero {
+    /* border: 1px solid red; */
+    padding-block-start: 16px;
+}
+
+.hero-description {
+    display: flex;
+    flex-direction: column;
+    gap: 16px /*es un espaciado*/
+}
+
+.hero-image {
+    text-align: center;
+    /* border-radius: 16px; */
+}
+.hero-image img {
+    max-inline-size: 100%; /*Hacer las imagenes responsive*/
+    block-size: auto; /*con altura automática para no deformar*/
+    
+}
+
+#yo {
+    border-radius: 16px;
+}
+
+.hero h1 {
+    font: var(--headLine3);
+    margin: 0;
+}
+
+.hero h1 span:nth-of-type(1) { /*FLEXBOX, puedo reemplazar por span:first-child*/
+    font: var(--headLine5);
+    display: block; /*Para que se coloque por encima del otro*/
+}
+
+/*HACERLO RESPONSIVE*/
+@media screen and (min-width: 768px) { /*medida estándar de por ejemplo un Ipad chico*/
+    .hero {
+        /* border: 1px solid red; */
+        display: flex;
+        gap: 32px; /*32px es un estándar*/
+    }
+    
+    .hero-image { /*cambio el orden de la imagen con el texto*/
+        order: 2;
+        flex: 1; /*activar flex*/
+        text-align: end; /*posicionar imagen*/
+    }
+    .hero-image img {
+        min-inline-size: 338px;
+        block-size: auto;
+    }
+    .hero-description {
+        order: 1;
+        max-inline-size: 450px; /*para que el párrafo no crezca más que 450px de ancho*/
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .hero-image img {
+        inline-size: 500px;
+        block-size: auto;
+    }
+}

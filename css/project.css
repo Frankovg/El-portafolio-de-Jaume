@@ -1,0 +1,45 @@
+.project {
+    padding-block-start: 80px; /*TOMO LA MITAD, YA QUE EL PADDING COMPLETO ES DE 80px*/
+    padding-block-end: 80px;
+}
+
+.project-description {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.description1 {
+    font: var(--body1);
+}
+
+.project-image img {
+    max-inline-size: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    .project {
+        display: flex;
+        align-items: center;
+        gap: 32px;
+        padding-block-start: 80px;
+        padding-block-end: 80px;
+    }
+
+    .project-description {
+        flex: 1;
+    }
+
+    .project:nth-child(odd) .project-image { /*Tomar los project pares, seleccionar sus imagenes y cambiarles la ubicación*/
+        /* border: 10px solid red; */
+        order: 2;
+        flex: 1;
+        text-align: center;
+    }
+    .project:nth-child(5) .project-image { /*Tomar los project pares, seleccionar sus imagenes y cambiarles la ubicación*/
+        /* border: 10px solid red; */
+        order: -2;
+        flex: 1;
+        text-align: center;
+    }
+}

@@ -1,0 +1,15 @@
+.header {
+    /*hacer que el menu nos siga*/
+    position: sticky;
+    top: 0;
+    backdrop-filter: blur(10px); /*hace un blur sobre el header para generar contraste con el menú*/
+}
+
+.header-content {
+    /*Utilizando los FlexBox*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    block-size: 80px;
+   
+}
