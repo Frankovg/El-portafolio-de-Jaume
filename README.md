@@ -13,28 +13,23 @@
 * [Room for Improvement](#room-for-improvement)
 * [Acknowledgements](#acknowledgements)
 * [Contact](#contact)
-<!-- * [License](#license) -->
 
 
 ## General Information
-- Provide general information about your project here.
-- What problem does it (intend to) solve?
-- What is the purpose of your project?
-- Why did you undertake it?
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+- It is a good exercise for training HTML and CSS skills. The site is fully responsive and mosty of the buttons/links are functional.
+- It also can be used as a real personal portfolio.
 
 
 ## Technologies Used
-- Tech 1 - version 1.0
-- Tech 2 - version 2.0
-- Tech 3 - version 3.0
+- Javascript
+- HTML5
+- CSS3
+- Formspree
 
 
 ## Features
-List the ready features here:
-- Awesome feature 1
-- Awesome feature 2
-- Awesome feature 3
+- Responsive.
+- Email form is working (actually it sends the email to my personal account).
 
 
 ## Screenshots
