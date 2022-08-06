@@ -34,6 +34,7 @@
 
 ## Screenshots
 ![Example screenshot](./Images/screenshot.png)
+![Example screenshot](./Images/screenshot_mobile.png)
 
 
 ## Setup
