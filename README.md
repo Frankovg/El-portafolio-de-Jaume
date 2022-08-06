@@ -1,6 +1,6 @@
 # El Portafolio de Jaume
 > It is an exercise to practice HTML, CSS and Javascript. With this project you will be able to make your own online portfolio. In this case it is just an example with a non real person.
-> Live demo [_here_](https://www.example.com). <!-- If you have the project hosted somewhere, include the link here. -->
+> Live demo [_here_](https://frankovg.github.io/El-portafolio-de-Jaume/).
 
 ## Table of Contents
 * [General Info](#general-information)
